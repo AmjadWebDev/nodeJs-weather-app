@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="css/styles.css" />
+<link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/57456f662e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="main-content">
+      {{>header}}
+
+      <h3>Use this site to get weather in Your City</h3>
+
+      <form class="searchinput" method="get">
+        <input type="text"  placeholder="City Name" class="text" required>
+        <button type="submit" class="submit"><i class="fas fa-search"></i></button>
+      </form>
+
+      
+
+      <p id="msg-1"></p>
+      <p id ="msg-2"></p>
+      
+    </div>
+    
+    {{>footer}}
+    
+    <script src="js/app.js"></script>
+
+  </body>
+</html>

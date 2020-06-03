@@ -1,0 +1,156 @@
+body {
+  color: #333333;
+  font-family: Arial;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+.main-content::after {
+  background: url("/img/weather1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+h3 {
+  font-family: "Pragati Narrow", sans-serif;
+  letter-spacing: 1px;
+}
+p {
+  font-family: "Pragati Narrow", sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer p {
+  font-family: "Pragati Narrow", sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: bold;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(13, 14, 14);
+}
+
+footer {
+  color: #1110108e;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  font-size: 0.8rem;
+  letter-spacing: 0.07em;
+  line-height: 2;
+  padding: 30px 0;
+  width: 100%;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #888888;
+  margin: 0 20px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.my-foto {
+  width: 250px;
+}
+
+input {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #888888;
+  color: white;
+  padding: 8px;
+}
+
+.searchinput {
+  line-height: 100%;
+  margin-top: 50px;
+  margin-left: 330px;
+  width: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  width: 40%;
+  height: 20px;
+  padding: 9px;
+  color: rgb(94, 93, 92);
+  border: 1px solid rgb(94, 93, 92);
+  box-shadow: 1px 0px 3px rgb(94, 93, 92);
+  border-radius: 50px;
+  font-size: 15px;
+  text-transform: capitalize;
+  outline: none;
+}
+::-webkit-input-placeholder {
+  color: rgb(94, 93, 92);
+}
+
+::-moz-input-placeholder {
+  color: rgb(94, 93, 92);
+}
+
+::-ms-input-placeholder {
+  color: rgb(94, 93, 92);
+}
+
+.text:focus {
+  box-shadow: 1px 1px 8px rgb(94, 93, 92);
+}
+
+.submit {
+  padding: 10px;
+  height: 40px;
+  width: 80px;
+  font-size: 13px;
+  color: white;
+  background: rgb(94, 93, 92);
+  border: none;
+  margin: 10px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgb(94, 93, 92);
+  outline: none;
+}
+
+.submit:active {
+  box-shadow: 0px 0px 7px orange;
+}
