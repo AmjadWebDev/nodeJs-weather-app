@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node src/app.js"
   },
+  "engines": {
+    "node": "8.9.3"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
