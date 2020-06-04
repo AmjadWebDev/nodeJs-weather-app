@@ -5,7 +5,7 @@ const geocode = require("./utilis/geocode");
 const forecast = require("./utilis/forecast");
 
 const app = express();
-var port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 //Define paths for express cofig
 const publicPathDirc = path.join(__dirname, "../public");
 const viewsPath = path.join(__dirname, "../templates/views");
