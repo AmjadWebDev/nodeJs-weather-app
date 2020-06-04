@@ -34,7 +34,7 @@ app.get("/about", (req, res) => {
 
 app.get("/contact", (req, res) => {
   res.render("contact", {
-    msg: "https://github.com/AmjadLille",
+    msg: "https://github.com/AmjadWebDev",
     title: "Contact-me",
     name: "Amjad Alsamman",
   });
